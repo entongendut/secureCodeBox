@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   engine:
-    image: fandi27/csocengine:${DEFAULT_TAG}
+    image: fandi27/csocengine:latest
     depends_on:
         camundadb:
           condition: service_healthy
