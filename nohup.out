@@ -1,0 +1,41 @@
+Starting securecodebox_bodgeit_1 ... 
+Starting securecodebox_persistence-elasticsearch_1 ... 
+Starting securecodebox_camundadb_1                 ... 
+Starting securecodebox_nginx_1                     ... 
+Starting securecodebox_old-wordpress_1             ... 
+Starting securecodebox_juice-shop_1                ... 
+Starting securecodebox_ssh-service_1               ... 
+Starting securecodebox_unsafe-https_1              ... 
+[1A[2KStarting securecodebox_unsafe-https_1              ... [32mdone[0m[1B[3A[2KStarting securecodebox_juice-shop_1                ... [32mdone[0m[3B[6A[2KStarting securecodebox_camundadb_1                 ... [32mdone[0m[6B[7A[2KStarting securecodebox_persistence-elasticsearch_1 ... [32mdone[0m[7BStarting securecodebox_persistence-kibana_1        ... 
+[5A[2KStarting securecodebox_old-wordpress_1             ... [32mdone[0m[5B[9A[2KStarting securecodebox_bodgeit_1                   ... [32mdone[0m[9B[3A[2KStarting securecodebox_ssh-service_1               ... [32mdone[0m[3B[6A[2KStarting securecodebox_nginx_1                     ... [32mdone[0m[6B[1A[2KStarting securecodebox_persistence-kibana_1        ... [32mdone[0m[1BStarting securecodebox_engine_1                    ... 
+[1A[2KStarting securecodebox_engine_1                    ... [32mdone[0m[1B
+ERROR: for scanner-infrastructure-ncrack  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-cms-wpscan  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-webserver-nikto  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-infrastructure-amass  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-infrastructure-sslyze  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-webapplication-zap  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-infrastructure-ssh  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-infrastructure-nmap  Container "0c2490e922a9" is unhealthy.
+
+ERROR: for scanner-webapplication-arachni  Container "0c2490e922a9" is unhealthy.
+Encountered errors while bringing up the project.
+securecodebox_nginx_1 is up-to-date
+securecodebox_old-wordpress_1 is up-to-date
+securecodebox_ssh-service_1 is up-to-date
+securecodebox_bodgeit_1 is up-to-date
+securecodebox_persistence-elasticsearch_1 is up-to-date
+securecodebox_juice-shop_1 is up-to-date
+securecodebox_unsafe-https_1 is up-to-date
+securecodebox_camundadb_1 is up-to-date
+securecodebox_persistence-kibana_1 is up-to-date
+
+ERROR: for engine  Container "89380698bd71" is unhealthy.
+Encountered errors while bringing up the project.

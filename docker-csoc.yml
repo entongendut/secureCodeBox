@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   engine:
-    image: fandi27/csocengine:${DEFAULT_TAG}
+    image: securecodebox/engine:${DEFAULT_TAG}
     depends_on:
         camundadb:
           condition: service_healthy
@@ -31,7 +31,7 @@ services:
       - SECURECODEBOX_PERSISTENCE_DEFECTDOJO_AUTH_NAME=admin
       - SECURECODEBOX_DEFAULT_TARGET_NAME=JuiceShop Test Host
       - SECURECODEBOX_DEFAULT_TARGET_LOCATION=juice-shop
-      - SECURECODEBOX_DEFAULT_TARGET_URI=http://juice-shop:3001
+      - SECURECODEBOX_DEFAULT_TARGET_URI=http://juice-shop:3000
       - SECURECODEBOX_DEFAULT_CONTEXT=JuiceShop Test Scan
       - SECURECODEBOX_USER_SCANNER=${ENGINE_SCANNERSERVICES_USER}
       - SECURECODEBOX_USER_SCANNER_PW=${ENGINE_SCANNERSERVICES_PASSWORD}
